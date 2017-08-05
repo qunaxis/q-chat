@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
-import page from './page'
+import chat from './chat'
 import user from './user'
 
 export default combineReducers({
-  page,
+  chat,
   user
 })

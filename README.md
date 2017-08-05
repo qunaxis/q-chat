@@ -26,30 +26,37 @@ $ npm build
 ### Description
 The backend part of application based on Node JS with Express and Socket.io with ES6/ES7. For testing i used `jest`
 
+### Features
+- [Express.js](https://expressjs.com/) as the web framework.
+- ES2017+ support with [Babel](https://babeljs.io/).
+- Automatic polyfill requires based on environment with [babel-preset-env](https://github.com/babel/babel-preset-env).
+- Linting with [ESLint](http://eslint.org/).
+- Testing with [Jest](https://facebook.github.io/jest/).
+
 ### Commands
 Install dependencies
 ```
-yarn
+$ yarn
 ```
 
 Begin development
 ```
-yarn run dev
+$ yarn run dev
 ```
 
 Run tests
 ```
-yarn run test
+$ yarn run test
 ```
 
 Build the app
 ```
-yarn run build
+$ yarn run build
 ```
 
 Begin linting in watch mode
 ```
-yarn run lint
+$ yarn run lint
 ```
 
 ### Environmental variables in development
